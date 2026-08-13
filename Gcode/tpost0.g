@@ -1,0 +1,14 @@
+
+G10 S200
+G1 Y30 F18000
+
+;For different tools, modify the X value below.
+G1 X40 F18000
+
+M109 S180
+G10 S220
+G1 Y0 E8 F18000
+G1 Y-11 E-8 F10000
+G1 Y-13 F3000
+G1 Y20 E7 F10000
+M98 P"offest"
